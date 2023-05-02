@@ -10,9 +10,4 @@ export default defineNuxtConfig({
     build: {
         transpile: ["gsap"],
     },
-    runtimeConfig: {
-        public: {
-            greensockclubToken: process.env.GREENSOCKCLUB_TOKEN,
-        },
-    },
 });

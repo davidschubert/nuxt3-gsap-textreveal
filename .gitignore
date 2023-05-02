@@ -5,6 +5,7 @@ node_modules
 .cache
 .output
 .env
+.zshenv
 dist
 .DS_Store
 
