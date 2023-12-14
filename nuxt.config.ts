@@ -1,5 +1,9 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    runtimeConfig: {
+        public: {
+            greensockClubToken: process.env.GREENSOCK_CLUB_TOKEN,
+        },
+    },
     css: ["~/assets/stylesheets/global.css"],
     app: {
         head: {

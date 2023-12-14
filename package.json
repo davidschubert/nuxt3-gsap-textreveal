@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "nuxt": "^3.4.3"
+    "nuxt": "^3.8.2"
   },
   "dependencies": {
-    "gsap": "npm:@gsap/shockingly@^3.11.5"
+    "gsap": "npm:@gsap/shockingly@^3.12.3"
   }
 }

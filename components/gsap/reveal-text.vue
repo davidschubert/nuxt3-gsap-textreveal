@@ -20,6 +20,7 @@ onNuxtReady(async () => {
         color: "rgb(247, 247, 247)",
         duration: 3,
         stagger: 1,
+        ease: "expo.inOut",
     });
 });
 </script>
